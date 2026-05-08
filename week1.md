@@ -38,7 +38,6 @@
 | 설치 불필요 | 인터넷만 있으면 사용 가능      |
 | 자동 저장  | 작업 내용 자동 저장         |
 | 협업 가능  | 링크 공유 가능            |
-| AI 친화적 | ChatGPT와 함께 사용하기 좋음 |
 
 ---
 
@@ -251,6 +250,42 @@ y = 3
 | 몫   | `x // y` | 3        |
 | 나머지 | `x % y`  | 1        |
 | 제곱  | `x ** y` | 1000     |
+
+---
+
+# 🔍 같은 숫자처럼 보여도 다르다
+
+```python
+x = 10
+y = "10"
+```
+
+| 변수 | 자료형 |
+|---|---|
+| x | int |
+| y | str |
+
+```python
+print(x + 1)
+```
+
+결과:
+
+```text
+11
+```
+
+하지만:
+
+```python
+print(y + 1)
+```
+
+오류 발생:
+
+```text
+TypeError
+```
 
 ---
 
@@ -479,7 +514,7 @@ if score >= 80
 
 ---
 
-# 🔀 if - else
+# 🔀 if - else 그리고 elif
 
 ```python
 age = 17
@@ -488,6 +523,21 @@ if age >= 20:
     print("성인")
 else:
     print("미성년자")
+```
+
+여러 가지 조건을 한 번에 처리할 수도 있다.
+
+```python
+score = 75
+
+if score >= 90:
+    print("A")
+elif score >= 80:
+    print("B")
+elif score >= 70:
+    print("C")
+else:
+    print("F")
 ```
 
 ---
