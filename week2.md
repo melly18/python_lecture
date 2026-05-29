@@ -1,4 +1,3 @@
-:::writing
 # Python 기초 2회차
 
 ## 목표
