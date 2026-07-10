@@ -180,6 +180,8 @@ main 함수에서 전체를 연결한다.
 
 ## 미니 프로젝트
 
+https://colab.research.google.com/drive/1F2bACRaBa5PaMcLYLursSgHcALRo18DG?usp=sharing
+
 ### 복지 대상자 지원 판단 프로그램
 
 사회 복지 상황을 단순화하여  
